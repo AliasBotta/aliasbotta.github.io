@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alessandro Botta is a PhD student in Software Engineering at The University of Texas at Dallas.">
+  <meta name="theme-color" content="#f6f5f1">
+  <title>Alessandro Botta — PhD Student</title>
+  <link rel="stylesheet" href="styles.css?v=8">
+  <script src="data.js?v=6" defer></script>
+  <script src="script.js?v=13" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Alessandro Botta, home">AB<span>/</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#whoami">whoami</a>
+      <a href="#news">news</a>
+      <a href="#publications">selected publications</a>
+      <a href="#service">service</a>
+      <a href="#experience">experience</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-name">
+      <div class="portrait-wrap">
+        <div class="portrait-frame">
+          <img class="portrait" src="assets/alessandro-botta.webp" alt="Portrait of Alessandro Botta" width="1066" height="1472" fetchpriority="high">
+        </div>
+        <span class="portrait-caption">alessandro.botta</span>
+        <div class="portrait-links" aria-label="Academic and social profiles">
+          <a href="https://scholar.google.com/citations?user=TGVSNtoAAAAJ&amp;hl=it">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/alessandro-botta-21248b223/">LinkedIn</a>
+          <a href="https://github.com/AliasBotta">GitHub</a>
+        </div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">The University of Texas at Dallas</p>
+        <h1 id="hero-name">Alessandro Botta</h1>
+        <p class="role">PhD Student in Software Engineering</p>
+
+        <div class="token-intro" id="token-intro">
+          <p class="generated-line" aria-hidden="true"><span id="generated-text">I do research in software engineering. With an interest in</span><span class="cursor">_</span></p>
+          <p class="intro-fallback">I do research in software engineering, with an interest in AI for software engineering, mutation testing, software documentation, program analysis, repository mining, and agent harness testing.</p>
+          <div class="distribution" id="distribution" aria-hidden="true"></div>
+          <button class="replay" id="replay" type="button" aria-label="Generate another completion">↻ <span>regenerate</span></button>
+          <p class="sr-only" aria-live="polite" id="animation-status"></p>
+        </div>
+
+        <span class="email-link" id="protected-email" aria-label="Email address"></span>
+      </div>
+    </section>
+
+    <section id="whoami" class="section two-column" aria-labelledby="about-heading">
+      <div class="section-label"><span>01</span><h2 id="about-heading">whoami</h2></div>
+      <div class="prose">
+        <p>I am a first-year PhD student in the <a href="https://assert-lab.github.io/">AS²ERT Lab</a> at <a href="https://www.utdallas.edu/">The University of Texas at Dallas (UTD)</a>, advised by <a href="https://soneyahossain.github.io/">Prof. Soneya Binta Hossain</a>. My research primarily lies at the intersection of artificial intelligence and software engineering (AI4SE). I believe that LLMs are among the most important inventions since writing. This conviction motivates my research, which explores how their potential can be fully translated in software engineering.</p>
+        <p>Before joining UTD, I earned my bachelor’s degree in Computer Science from the <a href="https://www.unipa.it/">University of Palermo</a> and worked as an undergraduate research assistant at the <a href="https://illinois.edu/">University of Illinois Urbana-Champaign (UIUC)</a>, where I had the opportunity to work with <a href="https://mir.cs.illinois.edu/~marinov/">Prof. Darko Marinov</a>.</p>
+      </div>
+    </section>
+
+    <section id="news" class="section two-column" aria-labelledby="news-heading">
+      <div class="section-label"><span>02</span><h2 id="news-heading">news</h2></div>
+      <div>
+        <ol class="news-list" id="news-list"></ol>
+        <button class="text-button" id="more-news" type="button" aria-controls="news-list" aria-expanded="false">More news <span aria-hidden="true">↓</span></button>
+        <noscript>
+          <ol class="news-list">
+            <li class="news-item"><time class="news-date">2026.08</time><span>Began the PhD in Software Engineering at The University of Texas at Dallas.</span></li>
+            <li class="news-item"><time class="news-date">2026</time><span>Serving on the ISSTA 2026 Artifact Evaluation Committee.</span></li>
+            <li class="news-item"><time class="news-date">2026</time><span>“The Discreet Charm of the Bugeoisie” accepted at ISSTA 2026 (Research Papers).</span></li>
+            <li class="news-item"><time class="news-date">2026</time><span>“CoCoMUT” accepted at SPLASH/ISSTA 2026 (Tool Demonstration).</span></li>
+            <li class="news-item"><time class="news-date">2025</time><span>Joined software engineering research at the University of Illinois Urbana-Champaign.</span></li>
+          </ol>
+        </noscript>
+      </div>
+    </section>
+
+    <section id="publications" class="section two-column" aria-labelledby="publications-heading">
+      <div class="section-label"><span>03</span><h2 id="publications-heading">selected publications</h2></div>
+      <div class="publication-list" id="publication-list"></div>
+      <noscript><p class="noscript-note">The publication list requires JavaScript to render from its structured data file.</p></noscript>
+    </section>
+
+    <section id="service" class="section two-column" aria-labelledby="service-heading">
+      <div class="section-label"><span>04</span><h2 id="service-heading">service</h2></div>
+      <div class="compact-list" id="service-list"></div>
+    </section>
+
+    <section id="experience" class="section two-column" aria-labelledby="experience-heading">
+      <div class="section-label"><span>05</span><h2 id="experience-heading">experience</h2></div>
+      <div class="timeline" id="experience-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Alessandro Botta <span>·</span> Software Engineering Research</p>
+    <a href="#top">top ↑</a>
+  </footer>
+</body>
+</html>

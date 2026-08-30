@@ -117,7 +117,7 @@ nav a:not(:last-child)::after {
 .eyebrow { margin: 0 0 var(--space-sm); color: var(--accent); font-size: 12px; }
 h1 { margin: 0; max-width: 650px; font-size: clamp(2.5rem, 5.1vw, 4.25rem); font-weight: 400; line-height: 1.02; letter-spacing: -.065em; }
 .role { margin: var(--space-sm) 0 var(--space-md); color: var(--muted); font-size: 17px; }
-.token-intro { min-height: 185px; max-width: 650px; }
+.token-intro { height: 225px; max-width: 650px; }
 .generated-line, .intro-fallback { margin: 0; font-size: clamp(16px, 2vw, 20px); line-height: 1.55; }
 .intro-fallback { display: none; }
 .cursor { color: var(--accent); animation: blink .9s steps(1) infinite; }
@@ -211,7 +211,7 @@ footer p { margin: 0; }
   .eyebrow { font-size: 14px; }
   h1 { font-size: clamp(4.5rem, 4.8vw, 5rem); }
   .role { font-size: 19px; }
-  .token-intro { max-width: 720px; }
+  .token-intro { height: 235px; max-width: 720px; }
   .generated-line, .intro-fallback { font-size: clamp(20px, 1.35vw, 22px); }
   .email-link { font-size: 12px; }
   .two-column { grid-template-columns: 200px minmax(0, 1fr); }
@@ -250,7 +250,7 @@ footer p { margin: 0; }
   .hero { min-height: 0; grid-template-columns: 1fr; gap: 48px; padding: 60px 0 68px; }
   .portrait-wrap { width: min(70%, 270px); margin-left: 12px; }
   h1 { font-size: clamp(2.35rem, 11vw, 3.6rem); }
-  .token-intro { min-height: 225px; }
+  .token-intro { height: 255px; }
   .section { padding: 58px 0; }
   .two-column { grid-template-columns: 1fr; gap: var(--space-md); }
   .section-label { position: static; }
@@ -265,6 +265,7 @@ footer p { margin: 0; }
   .portrait-wrap { width: min(76%, 250px); }
   .role { margin-bottom: 34px; font-size: 15px; }
   .generated-line, .intro-fallback { font-size: 15px; }
+  .token-intro { height: 275px; }
   .candidate { grid-template-columns: minmax(145px, 1fr) 70px 38px; }
   .news-item { grid-template-columns: 62px 1fr; gap: 10px; }
   .compact-row { grid-template-columns: 58px 60px 1fr; }

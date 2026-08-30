@@ -164,6 +164,52 @@ footer p { margin: 0; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 .noscript-note { color: var(--muted); font-size: 11px; }
 
+@media (min-width: 1181px) {
+  :root {
+    --sidebar-width: clamp(210px, 12vw, 240px);
+    --max: clamp(1040px, 72vw, 1160px);
+  }
+
+  body {
+    padding-left: var(--sidebar-width);
+    font-size: clamp(15px, .8vw, 16px);
+  }
+
+  .site-header {
+    width: var(--sidebar-width);
+    padding-inline: clamp(30px, 2vw, 38px);
+  }
+
+  .wordmark { font-size: clamp(17px, 1vw, 19px); }
+
+  nav {
+    margin-top: clamp(140px, 24vh, 250px);
+    padding: 22px 18px;
+    font-size: 12px;
+  }
+
+  nav a { padding-block: 17px; }
+
+  .hero {
+    min-height: 100svh;
+    grid-template-columns: clamp(280px, 19vw, 320px) minmax(0, 1fr);
+    gap: clamp(4rem, 7vw, 7rem);
+    padding-block: clamp(72px, 9vh, 120px);
+  }
+
+  .portrait-wrap { max-width: clamp(280px, 19vw, 320px); }
+  .portrait-caption { font-size: 11px; }
+  .portrait-links { font-size: 10px; }
+  .eyebrow { font-size: 13px; }
+  h1 { font-size: clamp(4.25rem, 4.6vw, 4.75rem); }
+  .role { font-size: 18px; }
+  .token-intro { max-width: 720px; }
+  .generated-line, .intro-fallback { font-size: clamp(18px, 1.3vw, 21px); }
+  .email-link { font-size: 11px; }
+  .two-column { grid-template-columns: 200px minmax(0, 1fr); }
+  .prose { max-width: 760px; }
+}
+
 @media (min-width: 901px) and (max-width: 1180px) {
   body { padding-left: 168px; }
   .site-header { width: 168px; padding: 32px 24px; }

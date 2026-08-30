@@ -1,4 +1,4 @@
-const { news, publications, service, experience } = window.siteData;
+const { news, publications, service } = window.siteData;
 
 const escapeHTML = (value) => String(value).replace(/[&<>'"]/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" }[char]));
 
@@ -49,25 +49,6 @@ function renderContent() {
   document.querySelector("#service-list").innerHTML = service.map(item => `
     <div class="compact-row"><span class="year">${escapeHTML(item.year)}</span><span>${escapeHTML(item.venue)}</span><span>${escapeHTML(item.role)}</span></div>`).join("");
 
-  const renderTimelineItems = items => items.map(item => `
-    <article class="timeline-item">
-      <div><h3>${escapeHTML(item.institution)}</h3><p class="timeline-title">${escapeHTML(item.title)}</p></div>
-      <time>${escapeHTML(item.date)}</time>
-      <p class="timeline-description">${escapeHTML(item.description)}</p>
-    </article>`).join("");
-
-  const categoryFor = item => item.category ||
-    (item.title.includes("Researcher") || item.title.includes("Intern") ? "research" : "education");
-
-  document.querySelector("#experience-list").innerHTML = `
-    <div class="timeline-group">
-      <h3 class="timeline-group-title">research experience</h3>
-      ${renderTimelineItems(experience.filter(item => categoryFor(item) === "research"))}
-    </div>
-    <div class="timeline-group">
-      <h3 class="timeline-group-title">education</h3>
-      ${renderTimelineItems(experience.filter(item => categoryFor(item) === "education"))}
-    </div>`;
 }
 
 function renderProtectedEmail() {

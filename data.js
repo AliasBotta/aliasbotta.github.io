@@ -30,12 +30,5 @@ window.siteData = {
   ],
   service: [
     { year: "2026", venue: "ISSTA", role: "Artifact Evaluation Committee" }
-  ],
-  experience: [
-    { category: "research", institution: "The University of Texas at Dallas", title: "Research Assistant in Software Engineering", date: "2026–present", description: "Software engineering research." },
-    { category: "research", institution: "University of Illinois Urbana-Champaign", title: "Undergraduate Researcher in Software Engineering", date: "2025–2026", description: "Research on automated program repair and empirical software engineering, including artifacts, traceability, and reproducibility." },
-    { category: "research", institution: "University of Palermo", title: "Prompt Engineer Intern", date: "2024", description: "Built an AI-driven agent system for strategic environmental decision-making using LLMs, prompt engineering, RAG, Python, and LangChain." },
-    { category: "education", institution: "The University of Texas at Dallas", title: "PhD in Software Engineering", date: "2026–2031, expected", description: "Software engineering research." },
-    { category: "education", institution: "University of Palermo", title: "Bachelor's Degree in Computer Science", date: "2022–2026", description: "Final grade: 110L/110L. Ranked 1st in the 2025/26 graduating class." }
   ]
 };

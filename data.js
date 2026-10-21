@@ -16,13 +16,13 @@ window.siteData = {
     {
       title: "The Discreet Charm of the Bugeoisie: A First Look at Bug Reports Created by Researchers",
       authors: ["Ji young Kim", "Jana Dragovic", "Alessandro Botta", "T. M. Rithwanul Islam", "Alaa Mohamad", "Karim Sharaf", "Sejuti Sharmin Siddiqui", "Divyanshi Joshi", "Harini Anand", "Nurjemal Saryyeva", "Shubham Chapagain", "Saad Nasir", "Darko Marinov", "Bogdan Alexandru Stoica"],
-      venue: "ISSTA 2026 — Research Papers",
+      venue: "ISSTA 2026 (Research Papers)",
       links: []
     },
     {
       title: "CoCoMUT: A Tool for Code-Context Mining and Automated Dataset Generation",
       authors: ["Alessandro Botta", "Shiven Garisa", "Jaya Vardhini Akurathi", "Ahsanul Ameen Sabit", "Trey Woodlief", "Soneya Binta Hossain"],
-      venue: "SPLASH/ISSTA 2026 — Tool Demonstration",
+      venue: "SPLASH/ISSTA 2026 (Tool Demonstration)",
       links: [
         { label: "preprint", url: "https://arxiv.org/abs/2606.31971", type: "text" },
         { label: "GitHub", url: "https://github.com/assert-lab/CoCoMUT", type: "github" }

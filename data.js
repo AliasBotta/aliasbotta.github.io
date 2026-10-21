@@ -1,11 +1,11 @@
 window.siteData = {
   news: [
-    { date: "2026", event: "Received the Distinguished Reviewer Award for Artifact Evaluation at ISSTA 2026." },
-    { date: "2026.08", event: "Began the PhD in Software Engineering at The University of Texas at Dallas." },
-    { date: "2026", event: "Serving on the ISSTA 2026 Artifact Evaluation Committee." },
-    { date: "2026", event: "“The Discreet Charm of the Bugeoisie” accepted at ISSTA 2026 (Research Papers)." },
-    { date: "2026", event: "“CoCoMUT” accepted at SPLASH/ISSTA 2026 (Tool Demonstration)." },
-    { date: "2025", event: "Joined software engineering research at the University of Illinois Urbana-Champaign." }
+    { date: "2026", event: "Received the Distinguished Reviewer Award for Artifact Evaluation at ISSTA 2026" },
+    { date: "2026.08", event: "Began the PhD in Software Engineering at The University of Texas at Dallas" },
+    { date: "2026", event: "Serving on the ISSTA 2026 Artifact Evaluation Committee" },
+    { date: "2026", event: "“The Discreet Charm of the Bugeoisie” accepted at ISSTA 2026 (Research Papers)" },
+    { date: "2026", event: "“CoCoMUT” accepted at SPLASH/ISSTA 2026 (Tool Demonstration)" },
+    { date: "2025", event: "Joined software engineering research at the University of Illinois Urbana-Champaign" }
   ],
   // PUBLICATION LINK RULE FOR FUTURE AGENTS:
   // Keep a single textual destination as [preprint]. If the user asks to add

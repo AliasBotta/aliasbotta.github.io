@@ -1,5 +1,6 @@
 window.siteData = {
   news: [
+    { date: "2026", event: "Received the Distinguished Reviewer Award for Artifact Evaluation at ISSTA 2026." },
     { date: "2026.08", event: "Began the PhD in Software Engineering at The University of Texas at Dallas." },
     { date: "2026", event: "Serving on the ISSTA 2026 Artifact Evaluation Committee." },
     { date: "2026", event: "“The Discreet Charm of the Bugeoisie” accepted at ISSTA 2026 (Research Papers)." },
@@ -29,6 +30,6 @@ window.siteData = {
     }
   ],
   service: [
-    { year: "2026", venue: "ISSTA", role: "Artifact Evaluation Committee" }
+    { year: "2026", venue: "ISSTA", role: "Artifact Evaluation Committee · Distinguished Reviewer" }
   ]
 };
